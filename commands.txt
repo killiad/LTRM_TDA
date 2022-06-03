@@ -1,0 +1,4 @@
+module load anaconda3/5.1.0-gcc; mpirun -np 24 --mca mpi_cuda_support 0 python3 Period_Extraction.py
+
+Running whole program with 16 processes takes 4 minutes
+It takes 45 seconds to prepare the data
